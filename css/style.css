@@ -1,0 +1,78 @@
+
+body {
+    background-color: #272727;
+}
+
+#cabecalho-principal {
+    background-color: #272727;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#pontuacao-game {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    background-color: #61B1EA;
+    border-radius: 30px;
+    color: #fff;
+    padding: 5px 50px;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 15px;
+}
+
+#pontuacao-game img {
+    margin-right: 10px;
+}
+
+#nome-game {
+    font-weight: bolder;
+    font-size: 27px;
+    margin-right: 20px;
+    color: #fff;
+}
+
+#corpo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    align-items: center;
+}
+
+#corpo > #esquerda {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    align-items: center;
+}
+
+#corpo > #esquerda > #cor-atual {
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 15px;
+    margin-top: 10px;
+}
+
+#corpo > #esquerda > #btn-responder {
+    margin-top: 10px;
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 45px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+#corpo > #direita {
+}
+
+#pontuacao-atual {
+    margin-left: 10px;
+}
